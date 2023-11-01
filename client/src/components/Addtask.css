@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	background-color: #09b8db;
+}
+h1 {
+	margin: 0;
+	padding: 29px;
+	/* margin: 16px; */
+}
+.todo_container {
+	margin: auto;
+	margin-top: 30px;
+	width: 350px;
+	/* position: absolute; */
+	/* left: 50%;
+	top: 50%; */
+	/* transform: translate(-50%,-50%); */
+	text-align: center;
+}
+.input-section {
+	background-color: #fff;
+	border-radius: 18px;
+	box-shadow: 1px 4px 10px 1px rgb(6, 145, 170);
+}
+.input-section form {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+input {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 7px;
+}
+ul {
+	padding: 0;
+	/* text-align: left; */
+	
+}
+ul li {
+    display: flex;
+	/* flex-direction: column; */
+	background-color: #fff;
+	margin: 3px;
+	list-style: none;
+	padding: 15px;
+	border-radius: 5px;
+	flex: 1;
+    justify-content: space-between;
+	align-items: flex-start;
+	
+
+}
+.tasksList {
+	text-decoration: line-through;
+}
+ul li i {
+	/* justify-content: space-between; */
+
+	/* flex: 1; */
+	/* text-align: right; */
+	/* align-items: flex-end;
+	justify-content: center; */
+	cursor: pointer;
+    padding-left: 6px;
+	/* margin-left: auto; */
+}
+.button{
+	border-color: black;
+	background-color: rgb(12, 12, 12);
+	border-radius: 5px;
+	margin-top: 10px;
+	color: white;
+	cursor: pointer;
+	width: 184px;
+	/* font-size: small; */
+	/* margin: 7px; */
+}
+.checkbox{
+	margin-right: 7px;
+}
